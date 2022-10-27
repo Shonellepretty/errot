@@ -186,12 +186,22 @@ a:hover {
 @media screen and (min-width:0) and (max-width:767px) {
     body {
        text-align: center;
+        width: auto;
     }
     .header {
         font-size: 15px;
-        display: flex;
+        width: auto;
 
     }
+    .land {
+        width: 400px;
+    }
+    .landbox {
+        width: 400px;
+        padding-left: 50px;
+    }
+    a {
+        margin: 3px 7px
     .logobox {
         margin-left: 10px;
     }
@@ -211,15 +221,19 @@ a:hover {
     }
     .bottom-cloud {
         position: absolute;
-        left: 100px;
-        bottom: 250px;
+        left: 60px;
+        bottom: 135px;
     }
     .name {
         padding-top: 25px;
+        font-size: 4em;
     }
     .intro {
         line-height: 1.5;
         width: 50%;
+    }
+    .programmer {
+        font-size: 1em;
     }
     .skill-row {
         width: 80%;
@@ -245,7 +259,7 @@ a:hover {
         font-size: 1.2em;
     }
     .para {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .contact-message {
         width: 65%;
